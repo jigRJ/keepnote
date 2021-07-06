@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans";
+
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+
+.header {
+  width: 100%;
+  line-height: 100px;
+  background-color: #646464;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0);
+}
+
+.main_note {
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+
+form {
+  min-height: 40px;
+  color: #ecf0f1;
+  /* padding: 10px 20px 20px 10px; */
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  grid-gap: 10px;
+  border-style: none;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px 2px rgba(201, 199, 199, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 500px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  color: #808080;
+
+}
+
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.logo {
+  height: 38px;
+  width: 28px;
+  padding-top: 8px;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: blueviolet;
+  text-align: center;
+  font-size: 50;
+}
+
+.deleteIcon {
+  width: 0.7em;
+  height: 0.7em;
+
+}
+
+.note .btn:hover {
+  background-color: #f5ba13;
+}
+
+.note .btn:hover .deleteIcon {
+  color: #fff;
+}
+
+.note .btn {
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  color: #f4b400;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+input {
+  width: 100px;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.MuiButton-root:hover {
+  background: #f4b400 !important;
+}
+
+.MuiButton-root:hover .plus_sign {
+  color: #fff;
+  background: transparent;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateZ(-20px) scaleX(0) scaleY(0);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translateZ(0px) scaleX(1) scaleY(1);
+    opacity: 100%;
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}
+
+.Add button {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  padding-top: 5px;
+  border-style: none;
+  background-color: white;
+  outline: none;
+  font-size: 45px !important;
+  font-weight: 900;
+  color: #f4b400;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
+
+.header h1 {
+  font-family: 'Monoton';
+  font-size: 50px;
+  color:#f5ba13;
+  margin-left: 50px;
+}
+ .h1 .animate__heartBeat{
+  content: '';
+  animation: logo 10s infinite linear;
+  }
+
+
+
+/*/*/
